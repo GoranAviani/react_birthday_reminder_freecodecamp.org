@@ -10,7 +10,7 @@ function App() {
         <main>
             <section className='container'>
                 <h3>
-                    birthdays today
+                    {people.length} birthdays today
                 </h3>
                 <List people={people}/>
                 <button onClick={() => console.log("click")}>Clear All</button>
